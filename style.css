@@ -1,0 +1,133 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: #fff;
+}
+
+/* core styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(216, 12%, 8%);
+}
+a {
+  text-decoration: none;
+}
+
+/* Normal styling */
+
+section {
+  display: flex;
+  align-items: center;
+  min-height: 95vh;
+}
+.box {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  margin: 0 auto;
+  max-width: 25rem;
+}
+.box-2 {
+  text-align: center;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  margin: 0 auto;
+  max-width: 25rem;
+}
+/* image */
+
+.star {
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 1.6rem;
+}
+/* header */
+h5 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* p tag */
+
+.p-1 {
+  color: hsl(216, 12%, 54%);
+}
+
+/* 1,2,3,4,5 flex */
+.div-flex {
+  display: flex;
+}
+.rating {
+  background: hsl(216, 12%, 8%);
+  border-radius: 50%;
+  color:hsl(25, 97%, 53%);
+  padding: 1.2rem 1.5rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.rating:focus {
+  background: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.btn {
+  background: hsl(25, 97%, 53%);
+  border-radius: 1rem;
+  padding: 0.7rem;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background: #fff;
+  color: hsl(25, 97%, 53%);
+}
+.ty-img {
+  margin-bottom: 2rem;
+}
+.you {
+  margin-bottom: 2rem;
+  color: hsl(25, 97%, 53%);
+  border-radius: 1rem;
+  background: hsl(240, 3%, 8%);
+  padding: 0.7rem;
+  border: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 500px) {
+  .box {
+    max-width: 22rem;
+  }
+  .rating {
+    padding: 15px 20px;
+    margin-right: 0.8rem;
+  }
+  .rating:focus{
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+  }
+  .rating:hover{
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+  }
+  .box-2 {
+    max-width: 22rem;
+  }
+}
